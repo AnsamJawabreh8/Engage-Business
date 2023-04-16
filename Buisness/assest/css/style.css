@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     font-family: "Roboto";
+     /*background-color: #d6dada44;*/
+
+}
+
+.home{
+    background-image: url("../img/business-main.jpg");
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+    height: 100vh;
+}
+/*.container{
+    width: 90%;
+    margin: auto;
+    background-color: #4274b7;
+}*/
+.header{
+    padding-top: 200px;
+}
+.home h1{
+    font-size: 75px;
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+}
+.home p{
+    font-family: "Roboto";
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.bt{
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6%;
+}
+.learn-bt{
+    background-color:#4274b7;
+    color: #fff;
+}
+.service-bt{
+    background-color: white;
+    color: black;
+}
+.learn-bt:hover{
+    background-color: #fff;
+    color: black;
+}
+.navbar{
+    overflow: hidden;
+    padding-top: 20px;
+}
+.navbar img{
+    float: left;
+    width: 15%;
+   padding-left: 45px;
+    
+}
+.navbar .list{
+    float: right;
+    width: 40%;
+    padding-top:20px;
+}
+
+.navbar .list ul{
+
+    display: inline;
+    font-size: 20px;
+}
+.navbar .list a{
+    color:#fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.cc{
+    width: 1349px;
+    height: 362px;
+}
+.cc .imgp{
+    padding-top: 100px;
+    float: left;
+    width: 50%;
+}
+.cc .parp{
+    padding-top:200px; 
+    float:right;
+    width: 48%;
+    
+    
+}
+.clr{
+    clear: both;
+}
+.parp h2{
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+.parp p{
+    font-family: "Roboto";
+    padding-top: 70px;
+    color: rgb(110, 107, 107);
+    line-height: 30px;
+    text-align: left;
+}
+.parp ul{
+    font-family: "Roboto";
+    padding-top: 10px; 
+    padding-bottom: 30px; 
+}
+.parp  ul li{
+    font-family: "Roboto";
+    padding-top: 30px;
+    color: rgb(110, 107, 107);
+
+}
+.parp .btl{
+    padding-top: 20px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #4274b7;
+    color: white;
+    border-radius: 6%;
+}
+.imgp img{
+    padding-left: 60px;
+}
+.asm{
+  color: #4274b7; 
+  size: 50px; 
+}
+.part3{
+
+width: 90%;
+margin: auto;
+background-color: #4274b7;
+
+}
+.part3 .img3{
+    padding-top: 200px;
+
+    float: right;
+    width: 45%;
+}
+.part3 .par3{
+    padding-top: 200px;
+    float:left;
+    width: 55%;
+}
+.par3 h2{
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+.par3 p{
+    font-family: "Roboto";
+    padding-top: 70px;
+    color: rgb(110, 107, 107);
+    line-height: 30px;
+    text-align: left;
+}
+.par3 ul{
+    font-family: "Roboto";
+    padding-top: 10px; 
+    padding-bottom: 30px; 
+}
+.par3 ul li{
+    font-family: "Roboto";
+    padding-top: 30px;
+    color: rgb(110, 107, 107);
+
+}
+.par3 .btl{
+    padding-top: 20px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #4274b7;
+    color: white;
+    border-radius: 6%;
+}
+.img3 img{
+    width: 100%;
+}
+.asm{
+  color: #4274b7; 
+  size: 50px; 
+}
+ .part1 h2{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+}
+.p11{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.p11 .privet{
+    
+    float: left;
+    width: 32%;
+    text-align: center;
+    line-height: 25px;
+
+
+}
+.p11 .small{
+    float: left;
+    width: 32%;
+    text-align: center;
+    line-height: 25px;
+
+
+}
+.p11 .satisfied{
+    float: left;
+    width: 32%;
+    text-align: center;
+    line-height: 25px;
+
+
+}
+.p12{
+    padding-top: 150px;
+    padding-left: 30px;
+}
+.p12 .powerful{
+    
+    float: left;
+    width: 32%; 
+    text-align: center;
+    line-height: 25px;
+
+}
+.p12 .responsive{
+    float: left;
+    width: 32%;
+    text-align: center;
+    line-height: 25px;
+
+}
+.p12 .Favourit{
+    float: left;
+    width: 32%;
+    text-align: center;
+    line-height: 25px;
+
+
+}
+.icw{
+    color: #acb2b9; 
+    size: 50px; 
+}
+.our  {
+    padding-top: 500px;
+    padding-bottom: 70px;
+    display: block;
+    
+}
+
+.our i{
+   padding-top: 200px; 
+   padding-left:45%;
+   size: 250px;
+   color: #4274b7;
+
+}
+.our h2,p{
+padding-top: 10px;
+text-align: center;
+font-family: "Open Sans", arial
+;
+}
+.our p{
+    color:rgb(136, 136, 136);
+    font-size: 20px;
+}
+.our h2{
+ font-weight: 3000;
+ font-size: 35px;
+}
+.frow{
+    padding-top: 100px;
+}
+.frow .po{
+    padding-left: 0px;
+    float: left;
+    width: 25%;
+    text-align: center;
+
+}
+.frow .rd{
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height:30px;
+
+}
+.frow .pb{
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 30px;
+
+}
+.frow .so{
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 30px;
+
+}
+.srow{
+    
+    padding-top: 200px;
+}
+.srow .dc{
+    padding-left: 0px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 30px;
+
+}
+.srow .fs{
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 30px;
+
+}
+.srow .do{
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 30px;
+
+}
+.srow .ps{
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.contain i{
+    color: #fff;
+    background-color: #4274b7;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    
+}
+
+ .contain  h2{
+    padding-top: 30px;
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 400px;
+    
+    
+}
+.contain p{
+    font-family: "Roboto";
+    font-size: 17px;
+    
+    font-weight: 400px;
+    padding-bottom: 100px;
+}
+.photo{
+    padding-top: 100px;
+    padding-left: 90px;
+    
+}
+.photo .log1{
+    padding-top: 100px;
+    float: left;
+    width: 20%;
+}
+
+.photo .log2{
+    padding-top: 100px;
+    float: left;
+    width: 20%;
+}
+
+.photo .log3{
+    padding-top: 100px;
+    float: left;
+    width: 20%;
+}
+
+.photo .log4{  
+    padding-top: 100px;
+    float: left;
+    width: 20%;
+}
+
+.photo .log5{
+    padding-top: 100px;
+    float: left;
+    width: 20%;
+
+}
+.want{
+    text-align: center;
+    padding-top: 500px;
+    width: 100%;
+    height: 30%;
+    
+}
+.want h2{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.836);
+    margin-top: 200px;
+    margin-bottom: 40px;
+    font-family: "Roboto";
+}
+.want p{
+    font-size: 20px;
+    color:rgb(136, 136, 136);
+    margin-bottom: 30px;
+    font-family: "Roboto";
+}
+.want button{
+    padding-top: 20px;
+    margin-bottom: 50px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #4274b7;
+    color: white;
+    border-radius: 6%;
+}
+
